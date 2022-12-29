@@ -99,6 +99,7 @@ data.forEach((element, index) => {
                     <p class="text-muted">
                       ${element.description}
                     </p>
+                    <p><a href="${element.url}">Gitub repository</a></p>
                   </div>
                 </div>
                 <div class="col-md-6">
