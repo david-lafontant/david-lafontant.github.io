@@ -283,3 +283,92 @@ footer a:not(.nav-link) {
   transform:rotate(288deg) translate(85px) rotate(-288deg);
 }
 
+.foot-icon{
+  color: #FF5F1F;
+}
+
+
+
+.social{
+  display: flex;
+  gap: 1.1rem;
+  justify-content: space-between;
+}
+
+.social li{
+  font-size: 2rem;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+  margin: 0.5rem;
+  padding: 0.3rem;
+
+}
+
+.social li a i{
+  font-size: 2rem;
+}
+
+.social li:nth-child(1):hover {
+  border: 5px solid #0072b1;
+  box-shadow: 0 0 15px #0072b1;
+  transition: all 0.5s ease;
+}
+
+.social li:nth-child(1) a {
+  color: #0072b1;
+  text-shadow: 0 0 15px #0072b1;
+  transition: all 0.5s ease;
+}
+
+.social li:nth-child(2):hover{
+  border: 5px solid #1DA1F2;
+  box-shadow: 0 0 15px #1DA1F2;
+  transition: all 0.5s ease;
+}
+
+.social li:nth-child(2) a{
+  color: #1DA1F2;
+  text-shadow: 0 0 15px #1DA1F2;
+  transition: all 0.5s ease;
+}
+
+
+
+.social li:nth-child(3):hover{
+  border: 5px solid #25D366;
+  box-shadow: 0 0 15px #25D366;
+  transition: all 0.5s ease;
+}
+
+.social li:nth-child(3) a{
+  color: #25D366;
+  text-shadow: 0 0 15px #25D366;
+  transition: all 0.5s ease;
+}
+
+.social li:nth-child(4):hover {
+  border: 5px solid #fff;
+  box-shadow: 0 0 15px #fff;
+  transition: all 0.5s ease;
+}
+
+.social li:nth-child(4) a {
+  color: #fff;
+  text-shadow: 0 0 15px #fff;
+  transition: all 0.5s ease;
+}
+
+.social li:nth-child(5):hover{
+  border: 5px solid #e1930d;
+  box-shadow: 0 0 15px #e1930d;
+  transition: all 0.5s ease;
+}
+
+.social li:nth-child(5) a{
+  color: #e1930d;
+  text-shadow: 0 0 15px #e1930d;
+  transition: all 0.5s ease;
+}
+
+
+
