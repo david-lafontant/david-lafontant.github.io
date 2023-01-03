@@ -12,42 +12,48 @@ const data = [
     description: "AWESOME BOOKS is web application project that allows users to add/remove books from a list and display them on the screen",
     image: "https://repository-images.githubusercontent.com/448865710/d514d8d5-981e-42bf-a69e-0a80eac526d5",
     url: "https://github.com/david-lafontant/Awesome-Books",
-    tech: "JavaScript / HTML / CSS"
+    tech: "JavaScript / HTML / CSS",
+    live: ""
   },
   {
     name: "Recipe-App",
     description: "Recipe-App keep track of all user's recipes, recipe’s ingredients lists, and user’s food inventory. The user can generate a shopping list based on the inventory. Recipe-App allows a user to share recipes.",
     image: "https://repository-images.githubusercontent.com/500589881/756e38fd-2fdd-4644-9564-c3a63582b8da",
     url: "https://github.com/david-lafontant/Recipe-App",
-    tech: "Ruby / Ruby on Rails / Tailwind CSS"
+    tech: "Ruby / Ruby on Rails / Tailwind CSS",
+    live: ""
   },
   {
     name: "Leaderboard",
     description: "Leaderboard is a web application that displays sorted scores. Leaderboard stores participants' scores in an API. The participants’ scores are retrieved, sorted, and displayed each time the refresh button is pressed",
     image: "https://repository-images.githubusercontent.com/457031042/2a4e4b7f-6b31-49af-9963-5fa23f5eda4f",
     url: "https://github.com/david-lafontant/Leaderboard",
-    tech: 'JavaScript / Webpack / HTML / CSS'
+    tech: 'JavaScript / Webpack / HTML / CSS',
+    live: ""
   },
   {
     name: "Zoo-Animals",
     description: "Zoo-Animal is a web application that displays zoo animals' information details. It retrieves data from Zoo Animal API, and displays all the animals retrieved and the data related to each animal.",
     image: "https://repository-images.githubusercontent.com/473316113/8b8f3923-a101-4115-8f83-94fe40980d44",
     url: "https://github.com/david-lafontant/Zoo-Animals",
-    tech: "React / Redux / CSS / Bootstrap"
+    tech: "React / Redux / CSS / Bootstrap",
+    live: ""
   },
   {
     name: "Budget-App",
     description: "Budget-App is a mobile web application. It allows a registered user to manage an expense budget by categorizing and tracking each expense. Budget-App is built with Ruby on Rails. ",
     image: "https://repository-images.githubusercontent.com/503026039/8910b94e-59e9-41e4-8779-317d4dd83ff5",
     url: "https://github.com/david-lafontant/Budget-App",
-    tech: "Ruby on Rails / PostgreSQL / Tailwind CSS"
+    tech: "Ruby on Rails / PostgreSQL / Tailwind CSS",
+    live: ""
   },
   {
     name: "W.G.T-Summit-2021",
     description: "Web portal of the World Globalization Trade Summit 2021. W.G.T-Summit-2021 inform about WGT summit (venue, speaker, date, etc..)",
     image: "https://repository-images.githubusercontent.com/444822382/e12a421f-2ee7-4407-b4ec-f0ec4c831db3",
     url: "https://github.com/david-lafontant/W.G.T-Summit-2021",
-    tech: "JavaScript / SASS / HTML"
+    tech: "JavaScript / SASS / HTML",
+    live: ""
   }
 ];
 
@@ -77,6 +83,7 @@ data.forEach((element, index) => {
       <p class="text-muted">
         ${element.description}
       </p>
+      <p class="d-flex justify-content-around"><a class="btn btn-primary" href="${element.url}">Github repository</a></p>
     </div>
   </div>`;
     portfolioItem.innerHTML = content;
@@ -99,7 +106,8 @@ data.forEach((element, index) => {
                     <p class="text-muted">
                       ${element.description}
                     </p>
-                    <p><a href="${element.url}">Gitub repository</a></p>
+                    <p class="d-flex justify-content-around" ><a class="btn btn-primary" href="${element.url}">Github repository</a></p>
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-6">
