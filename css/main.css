@@ -126,6 +126,7 @@ footer a:not(.nav-link) {
     transform: translate(0) scale(1) !important;
   }
 
+
   .p-5 {
     padding: 2.5rem 2rem !important;
   }
@@ -370,5 +371,11 @@ footer a:not(.nav-link) {
   transition: all 0.5s ease;
 }
 
-
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
 
