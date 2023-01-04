@@ -34,26 +34,26 @@
   <header class="d-print-none">
     <div class="container text-center text-lg-left">
       <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
-        <div class="container-fluid">
+        <div class="container-fluid" id="header-container">
           <a class="navbar-brand text-white" href="#home">David Lafontant</a>
           <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
             data-mdb-target="#navbarTogglerPortfolio" aria-controls="navbarTogglerPortfolio" aria-expanded="false"
             aria-label="Toggle navigation">
             <i class="fas fa-bars text-white"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerPortfolio">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse pr-4" id="navbarTogglerPortfolio">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="boubouk">
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#portfolio">Project</a>
+                <a class="nav-link text-white" href="#about">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#about">About</a>
+                <a class="nav-link active text-white" aria-current="page" href="#portfolio">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#stack">Stack</a>
+                <a class="nav-link text-white" href="#stack">Tech Stack</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#contact">Contact</a>
@@ -127,6 +127,7 @@
             </div>
           </div>
         </div>
+
         <div class="shadow-1-strong bg-dark text-white my-5 p-5" id="about">
           <div class="about-section">
             <div class="row">
@@ -163,6 +164,19 @@
             </div>
           </div>
         </div>
+
+
+        <div class="shadow-1-strong bg-dark text-white my-5 p-5 d-print-none" id="portfolio">
+          <div class="portfolio-section">
+            <h2 class="h2 fw-light mb-4">Projects</h2>
+          </div>
+        </div>
+
+
+
+
+
+
 
         <div class="shadow-1-strong bg-dark text-white my-5 p-5" id="stack">
           <div class="work-experience-section">
@@ -274,11 +288,7 @@
           </div>
         </div>
 
-        <div class="shadow-1-strong bg-dark text-white my-5 p-5 d-print-none" id="portfolio">
-          <div class="portfolio-section">
-            <h2 class="h2 fw-light mb-4">Projects</h2>
-          </div>
-        </div>
+
 
         <div class="shadow-1-strong bg-dark text-white my-5 p-5" id="contact">
           <div class="contant-section">
@@ -316,14 +326,6 @@
                       Send
                     </button>
                   </form>
-
-
-
-
-
-
-
-
                 </div>
               </div>
               <div class="parent col-md-7 d-print-none">
