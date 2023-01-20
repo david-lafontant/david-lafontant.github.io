@@ -64,7 +64,7 @@ data.forEach((element, index) => {
     const portfolioItem = document.createElement("div");
     portfolioItem.classList.add('row', 'g-0', 'mt-5', 'leshadow');
     const content = `<div class="col-md-6">
-    <a href=${element.url} target="_blank"
+    <a href=${element.url} target="_blank" rel="noopener noreferrer"
       ><img
         class="img-fluid"
         src=${element.image}
@@ -83,7 +83,7 @@ data.forEach((element, index) => {
       <p class="text-muted">
         ${element.description}
       </p>
-      <p class="d-flex justify-content-around"><a class="btn btn-primary" href="${element.url}">Github repository</a></p>
+      <p class="d-flex justify-content-around"><a class="btn btn-primary" href="${element.url}" target="_blank" rel="noopener noreferrer"  >Github repository</a></p>
     </div>
   </div>`;
     portfolioItem.innerHTML = content;
@@ -106,7 +106,7 @@ data.forEach((element, index) => {
                     <p class="text-muted">
                       ${element.description}
                     </p>
-                    <p class="d-flex justify-content-around" ><a class="btn btn-primary" href="${element.url}">Github repository</a></p>
+                    <p class="d-flex justify-content-around" ><a class="btn btn-primary" href="${element.url}" target="_blank" rel="noopener noreferrer">Github repository</a></p>
                     </div>
                   </div>
                 </div>
