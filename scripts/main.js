@@ -13,7 +13,7 @@ const data = [
     image: "https://repository-images.githubusercontent.com/448865710/d514d8d5-981e-42bf-a69e-0a80eac526d5",
     url: "https://github.com/david-lafontant/Awesome-Books",
     tech: "JavaScript / HTML / CSS",
-    live: ""
+    live: "https://awesomebooklafontant.netlify.app/"
   },
   {
     name: "Recipe-App",
@@ -29,7 +29,7 @@ const data = [
     image: "https://repository-images.githubusercontent.com/457031042/2a4e4b7f-6b31-49af-9963-5fa23f5eda4f",
     url: "https://github.com/david-lafontant/Leaderboard",
     tech: 'JavaScript / Webpack / HTML / CSS',
-    live: ""
+    live: "https://davidlafontant.tech/Leaderboard/"
   },
   {
     name: "Zoo-Animals",
@@ -53,7 +53,7 @@ const data = [
     image: "https://repository-images.githubusercontent.com/444822382/e12a421f-2ee7-4407-b4ec-f0ec4c831db3",
     url: "https://github.com/david-lafontant/W.G.T-Summit-2021",
     tech: "JavaScript / SASS / HTML",
-    live: ""
+    live: "https://wgtsummit.netlify.app/"
   }
 ];
 
